@@ -60,9 +60,9 @@ export const Projects: React.FC<ProjectsProps> = ({ lang, theme }) => {
                       src={project.imageUrl}
                       alt={project.companyName}
                       referrerPolicy="no-referrer"
-                      onError={(e) => {
-                        e.currentTarget.src = '/open-pit.jpg';
-                      }}
+                     onError={(e) => {
+                      e.currentTarget.src = `${import.meta.env.BASE_URL}open-pit.jpg`;
+                        }}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-60 filter contrast-110"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/50 to-transparent pointer-events-none" />
