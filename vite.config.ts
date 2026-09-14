@@ -66,7 +66,7 @@ function aistudioMediaPlugin(): Plugin {
 
 export default defineConfig(() => {
   return {
-    base: '/pt-minesphere-consulting-solution/',
+    base: '/PT-Minesphere-Consulting-Solution/',
 
     plugins: [react(), tailwindcss(), aistudioMediaPlugin()],
 
