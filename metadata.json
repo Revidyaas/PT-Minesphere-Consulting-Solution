@@ -1,0 +1,6 @@
+{
+  "name": "PT Minesphere Consulting Solution",
+  "description": "Integrated mining, geological, environmental, and strategic consulting solutions to support responsible and efficient mining projects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

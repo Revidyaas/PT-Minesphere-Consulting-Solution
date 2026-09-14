@@ -1,0 +1,61 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="60 50 280 270"
+  width="512"
+  height="512"
+>
+  <defs>
+    <linearGradient id="msGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3DBA3A"/>
+      <stop offset="100%" stop-color="#3A9638"/>
+    </linearGradient>
+
+    <linearGradient id="msDome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3DBA3A"/>
+      <stop offset="100%" stop-color="#3C9639"/>
+    </linearGradient>
+  </defs>
+
+  <!-- TOP DOME / MINING HELMET -->
+  <path
+    fill="url(#msDome)"
+    d="
+      M 100 168
+      A 100 100 0 0 1 300 168
+      L 265 158
+      L 265 143
+      L 257 143
+      L 257 157
+      L 200 190
+      L 143 157
+      L 143 143
+      L 135 143
+      L 135 158
+      Z
+    "
+  />
+
+  <!-- MAIN M / MOUNTAIN STRUCTURE -->
+  <path
+    fill="url(#msGreen)"
+    d="
+      M 65 178
+      L 135 154
+      L 200 190
+      L 265 154
+      L 335 178
+      L 335 305
+      L 289 280
+      A 96 91 0 0 0 111 280
+      L 65 305
+      Z
+    "
+  />
+
+  <!-- FLOATING MINERAL ELEMENTS (ALL MANDATORY CIRCLES) -->
+  <circle cx="142" cy="257" r="6" fill="#416C4A" />
+  <circle cx="161" cy="294" r="9" fill="#67AF60" />
+  <circle cx="247" cy="239" r="10.5" fill="#416C4A" />
+  <circle cx="268" cy="250" r="6" fill="#416C4A" />
+  <circle cx="218" cy="299" r="11" fill="#BCE9BA" />
+</svg>
