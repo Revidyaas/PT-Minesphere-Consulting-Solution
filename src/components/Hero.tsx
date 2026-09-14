@@ -49,7 +49,7 @@ export const Hero: React.FC<HeroProps> = ({
             The image fades into the background on the left.
             --------------------------------------------------------- */}
         <img
-          src="/open-pit.jpg"
+          src={`${import.meta.env.BASE_URL}open-pit.jpg`}
           alt="Open-pit mining operation"
           className={`absolute right-0 top-0 h-full w-[50%] object-cover object-center ${
             isLight
