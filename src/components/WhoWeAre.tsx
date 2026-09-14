@@ -403,7 +403,7 @@ export const WhoWeAre: React.FC<WhoWeAreProps> = ({ lang, theme, onConsultServic
                 alt="Mining site field technical engineering supervision"
                 referrerPolicy="no-referrer"
                 onError={(e) => {
-                  e.currentTarget.src = '/open-pit.jpg';
+                  e.currentTarget.src = `${import.meta.env.BASE_URL}open-pit.jpg`;
                 }}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 brightness-95"
               />
